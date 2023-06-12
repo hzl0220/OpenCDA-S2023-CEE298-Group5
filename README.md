@@ -1,8 +1,11 @@
-# OpenCDA
+# Project 3 of Group 5 - OpenCDA  
+
 [![Build Status](https://travis-ci.com/ucla-mobility/OpenCDA.svg?branch=develop)](https://travis-ci.com/ucla-mobility/OpenCDA)
 [![Coverage Status](https://coveralls.io/repos/github/ucla-mobility/OpenCDA/badge.svg?branch=feature/readme_revise)](https://coveralls.io/github/ucla-mobility/OpenCDA?branch=feature/readme_revise)
 [![Documentation Status](https://readthedocs.org/projects/opencda-documentation/badge/?version=latest)](https://opencda-documentation.readthedocs.io/en/latest/?badge=latest)
 
+This is the forked repo for the final project of CEE298, Spring 2023. For the main changes of each module, please check [this path](https://github.com/hzl0220/OpenCDA-S2023-CEE298-Group5/tree/main/opencda/customize/).
+_________________________________________________
 
 OpenCDA is an open co-simulation-based **research/engineering framework** integrated with prototype cooperative driving automation (CDA; see [SAE J3216](https://www.sae.org/standards/content/j3216_202005/)) pipelines as well as regular automated driving components (e.g., perception, localization, planning, control).  It not only enables CDA evaluation in a CARLA + SUMO co-simulation environment but also provides a rich library of source codes of CDA research pipelines. 
 

@@ -94,8 +94,8 @@ class Controller:
         if current_speed_kmh < 50:
         # TODO: Assign the baseline PID gains for low-speed scenarios (< 50 km/h)
         # kp_lon, kd_lon, ki_lon = ...
-            kp_lon, kd_lon, ki_lon = kp_lon_base, kd_lon_base, ki_lon_base
         # kp_lat, kd_lat, ki_lat = ...
+            kp_lon, kd_lon, ki_lon = kp_lon_base, kd_lon_base, ki_lon_base
             kp_lat, kd_lat, ki_lat = kp_lat_base, kd_lat_base, ki_lat_base
         else:
         # TODO: Adjust the baseline PID gains for high-speed scenarios (> 50 km/h)

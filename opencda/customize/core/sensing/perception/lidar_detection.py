@@ -30,7 +30,9 @@ def remove_ego(point_cloud: o3d.geometry.PointCloud):
     # mask = points.x > -3 and points.x < 3 and points.y > -1.5 and points.y < 1.5
     mask = ~((points[:, 0] > -3) & (points[:, 0] < 3) & \
              (points[:, 1] > -1.5) & (points[:, 1] < 1.5))
+    
     print(mask.shape)
+    
     # Get the indices of the points that are not inside the ego vehicle.
     print(np.where(mask)[0].shape)
     # END TODO
